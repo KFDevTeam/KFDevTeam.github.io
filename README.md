@@ -8,7 +8,7 @@ This is a KF Insights Intellect Website with a one page view.
 
 ## Installation Requirements
 ### 1. Preps
-You will need to have the following installed on your pc.
+You will need to have the following installed on your pc:
 * <a href="https://nodejs.org/">Node JS</a>
 * <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a>
 * <a href="https://www.npmjs.com/package/next">Next js</a>
