@@ -7,7 +7,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
     "emailjs-com": "^2.6.4",
+    "eslint": "6.x",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "4.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x",
     "next": "^11.0.1",
     "next-routes": "^1.4.2",
     "react": "^17.0.1",
@@ -19,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "react-scripts build && gh-pages -d public -b main",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-react": "^1.1.7",
+    "dotenv": "^10.0.0",
     "gh-pages": "^3.2.3"
   }
 }
