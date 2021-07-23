@@ -15,12 +15,12 @@ h2 {
 	margin: 0 0 20px;
 	font-weight: 800;
 	font-size: 36px;
-	color: #333;
+	color: rgb(211, 56, 56);
 }
 h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #333;
+	color: rgb(211, 56, 56);
 }
 h4 {
 	font-size: 18px;
