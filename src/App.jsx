@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
-import { SignIn } from './components/signin'
+import { SignIn } from './components/SignIn'
 import { Features } from './components/features'
 import { About } from './components/about'
 import { Services } from './components/services'
@@ -26,6 +26,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <SignIn data={landingPageData.SignIn} />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
