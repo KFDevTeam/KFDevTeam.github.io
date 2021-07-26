@@ -45,7 +45,6 @@ const App = () => {
       <Contact data={landingPageData.Contact} />
     </div>
   )
-}
 
   return (<Router>
     <div className="App">
@@ -76,5 +75,7 @@ const App = () => {
       </div>
     </div></Router>
   );
+
+}
 
 export default App
