@@ -13,7 +13,7 @@ import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
