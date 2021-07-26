@@ -12,7 +12,6 @@
     "babel-eslint": "10.x",
     "emailjs-com": "^2.6.4",
     "eslint": "6.x",
-    "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-flowtype": "4.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
