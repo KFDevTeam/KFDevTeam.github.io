@@ -17,8 +17,8 @@ export const Navigation = (props) => {
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
           Insight Intellect
-          <p><i>powered by Knowledge Factory</i></p>
           </a>{' '}
+          <p><i>powered by Knowledge Factory</i></p>
         </div>
 
         <div
@@ -27,7 +27,7 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='sign-in.js' className='page-scroll'>
+              <a href='#SignIn' className='page-scroll'>
                 Sign In
               </a>
             </li>
@@ -58,7 +58,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             */}
-            
+
             <li>
               <a href='#contact' className='page-scroll'>
                 Contact
