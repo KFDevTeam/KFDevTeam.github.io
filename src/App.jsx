@@ -25,7 +25,6 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
@@ -36,7 +35,6 @@ const App = () => {
       <Contact data={landingPageData.Contact} />
     </div>
   )
-
 }
 
 export default App
