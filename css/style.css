@@ -76,8 +76,8 @@ hr {
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 15px;
+	font-weight: 500;
 	color: rgb(228, 13, 13);
 	text-transform: uppercase;
 }
@@ -98,7 +98,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right,  #a94442 0%, #d24b35 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +115,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right,  #a94442 0%, #d24b35 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -127,7 +127,7 @@ hr {
 	border-color: #608dfd;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	background-color: #a94442;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right,  #a94442 0%, #d24b35 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,7 +155,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
+	background-color: #a94442;
 	background-image: linear-gradient(to right,#a94442 0%, #d24b35 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
@@ -207,7 +207,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 span {
 	font-weight: 800;
-	color: #5ca9fb;
+	color: #a94442;
 }
 .intro p {
 	color: #fff;
@@ -478,7 +478,7 @@ header .intro-text {
 	border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-	color: #1f386e;
+	color: #a94442;
 	background: #fff;
 }
 label {
