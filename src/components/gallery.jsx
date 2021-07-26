@@ -3,10 +3,9 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>Reports</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Real time insight intellect reports
           </p>
         </div>
         <div className='row'>
@@ -21,7 +20,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>View Report</h4>
                     </div>
                     <img
                       src='img/portfolio/01-small.jpg'
@@ -42,7 +41,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>View Report</h4>
                     </div>
                     <img
                       src='img/portfolio/02-small.jpg'
@@ -63,7 +62,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>View Report</h4>
                     </div>
                     <img
                       src='img/portfolio/03-small.jpg'
@@ -74,6 +73,8 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
+
+            {/*
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
@@ -94,7 +95,9 @@ export const Gallery = (props) => {
                   </a>{' '}
                 </div>
               </div>
-            </div>
+            </div>*/}
+
+            {/*
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
@@ -115,7 +118,9 @@ export const Gallery = (props) => {
                   </a>{' '}
                 </div>
               </div>
-            </div>
+            </div>*/}
+
+            {/*
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
@@ -136,7 +141,8 @@ export const Gallery = (props) => {
                   </a>{' '}
                 </div>
               </div>
-            </div>
+            </div>*/}
+{/*
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
@@ -157,7 +163,9 @@ export const Gallery = (props) => {
                   </a>{' '}
                 </div>
               </div>
-            </div>
+            </div>}*/
+
+            {/*
             <div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
@@ -179,7 +187,9 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className='col-sm-6 col-md-4 col-lg-4'>
+            */}
+
+            {/*<div className='col-sm-6 col-md-4 col-lg-4'>
               <div className='portfolio-item'>
                 <div className='hover-bg'>
                   {' '}
@@ -199,7 +209,11 @@ export const Gallery = (props) => {
                   </a>{' '}
                 </div>
               </div>
-            </div>
+  </div>*/}
+
+
+
+
           </div>
         </div>
       </div>
