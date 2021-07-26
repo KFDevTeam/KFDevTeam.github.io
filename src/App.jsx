@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <SignIn data={landingPageData.SignIn} />
+      
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
