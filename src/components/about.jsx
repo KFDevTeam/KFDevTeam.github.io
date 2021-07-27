@@ -12,7 +12,7 @@ export const About = (props) => {
             <div className='about-text'>
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
-              <h3>Why Choose Us?</h3>
+              <h3></h3>
 
             
 
