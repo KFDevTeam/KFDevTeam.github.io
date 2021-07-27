@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import {BrowserRouter as Router} from 'react-router-dom'
+
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
