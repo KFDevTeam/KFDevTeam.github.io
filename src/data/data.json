@@ -6,7 +6,7 @@
 
     },
     "About": {
-        "paragraph": "​The purpose of Insight Intellect is to support better business decision making. It provides interactive visualizations with self-service business intelligence capabilities, where end users can create reports and dashboards by themselves, without having to depend on information technology staff or database administrators.",
+        "paragraph": "Insight Intellect is a division of Knowledge Factory, a Property Data and ICT company. We are a proudly black business with a B-BBEE status of level 1. The company was formed in 1997 and is now thriving for just over two decades",
         "Why": [
             "We centralize and enrich our clients data",
              "We secure and protect information irrespective of the size of the requirements.",
@@ -20,21 +20,7 @@
         ]
     },
 
-    "Services": [{
-            "icon": "fa fa-pie-chart",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
+    "Services": [
         {
             "icon": "fa fa-pie-chart",
             "name": "Visualization, Dashboards, & Reporting",
