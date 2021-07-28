@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import './index.css';
-//import App from './App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import ReactDOM from "react-dom";
@@ -21,7 +21,7 @@ firebase.initializeApp(firebaseConfig);
 
 export const AuthContext = React.createContext(null);
 
-function App() {
+//function App() {
   const [isLoggedIn, setLoggedIn] = useState(false);
 
 
@@ -46,7 +46,7 @@ function App() {
       </div>
     </AuthContext.Provider>
   );
-}
+//}
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
