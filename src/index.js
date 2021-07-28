@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+
 import ReactDOM from "react-dom";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import routes from "./routes.js";
