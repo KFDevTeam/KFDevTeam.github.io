@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import routes from "./routes.js";
 import Header from "./Header";
-import "./styles.css";
-import "../build/css/style.css";
+//import "./styles.css";
+//import "../build/css/style.css";
 
 import * as firebase from "firebase";
 import firebaseConfig from "./firebase.config";
