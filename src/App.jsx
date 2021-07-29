@@ -55,7 +55,7 @@ const App = () => {
 
       <Button
             onClick={handleRoute}>
-              About
+              join
           </Button>
     </div>
 
