@@ -1,5 +1,3 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 
 export const Navigation = (props) => {
   return (
@@ -65,12 +63,9 @@ export const Navigation = (props) => {
             </li>
 
             <li>
-            <Link to='/Join'>Sign In</Link>
-
-              {/*<a href='#SignIn' className='page-scroll'>
+              <a href='#SignIn' className='page-scroll'>
                 Sign In
-              </a>*/}
-
+              </a>
             </li>
           </ul>
         </div>
