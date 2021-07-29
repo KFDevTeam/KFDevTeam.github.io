@@ -56,8 +56,6 @@ const App = () => {
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
 
-      <Join data={isLoggedIn.Join} />
-      <Login data={isLoggedIn.Login} />
         
     </div>
 
