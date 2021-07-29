@@ -15,6 +15,8 @@ import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 
+import Join from './Join'
+import Login from './Login'
 import firebase from 'firebase/app';
 import firebaseConfig from "./firebase.config";
 
@@ -53,10 +55,9 @@ const App = () => {
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
 
-      <Button
-            onClick={handleRoute}>
-              join
-          </Button>
+      <Join data={isLoggedIn.Join} />
+      <Login data={isLoggedIn.Login} />
+
     </div>
 
 
