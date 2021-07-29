@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -62,9 +65,12 @@ export const Navigation = (props) => {
             </li>
 
             <li>
-              <a href='#SignIn' className='page-scroll'>
+            <Link to='/Join'>Sign In</Link>
+
+              {/*<a href='#SignIn' className='page-scroll'>
                 Sign In
-              </a>
+              </a>*/}
+
             </li>
           </ul>
         </div>
