@@ -44,6 +44,9 @@ const App = () => {
   }, [])
 
   return (
+    <AuthContext.Provider value={{ isLoggedIn, setLoggedIn }}>
+    Is logged in? {JSON.stringify(isLoggedIn)}
+
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
@@ -57,8 +60,11 @@ const App = () => {
 
       <Join data={isLoggedIn.Join} />
       <Login data={isLoggedIn.Login} />
-
+        
     </div>
+
+    </AuthContext.Provider>
+
 
 
 
