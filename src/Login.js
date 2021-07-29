@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { AuthContext } from "./index";
+import { AuthContext } from "./App";
 import firebase from "firebase";
 import "firebase/auth";
 const Login = () => {
