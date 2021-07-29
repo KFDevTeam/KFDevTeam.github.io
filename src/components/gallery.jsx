@@ -15,7 +15,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
+                    href='img/portfolio/graph.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -23,7 +23,7 @@ export const Gallery = (props) => {
                       <h4>View April Report</h4>
                     </div>
                     <img
-                      src='img/portfolio/01-large.jpg'
+                      src='img/portfolio/graph.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -36,7 +36,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
+                    href='img/portfolio/graph.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -44,7 +44,7 @@ export const Gallery = (props) => {
                       <h4>View May Report</h4>
                     </div>
                     <img
-                      src='img/portfolio/01-large.jpg'
+                      src='img/portfolio/graph.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -57,7 +57,7 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
+                    href='img/portfolio/graph.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
@@ -65,7 +65,7 @@ export const Gallery = (props) => {
                       <h4>View June Report</h4>
                     </div>
                     <img
-                      src='img/portfolio/01-large.jpg'
+                      src='img/portfolio/graph.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
