@@ -19,7 +19,6 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href='#page-top'>
           Insight Intellect
           </a>{' '}
-          <p><i>powered by Knowledge Factory</i></p>
         </div>
 
         <div

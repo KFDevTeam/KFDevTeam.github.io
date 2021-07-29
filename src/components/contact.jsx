@@ -150,7 +150,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021{' '}
+            &copy; <b>powered by Knowledge Factory</b> 2021{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
             
             </a>

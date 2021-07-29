@@ -15,8 +15,6 @@ import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 
-import Join from './Join'
-import Login from './Login'
 import firebase from 'firebase/app';
 import firebaseConfig from "./firebase.config";
 
